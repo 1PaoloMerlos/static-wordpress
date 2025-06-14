@@ -1,0 +1,47 @@
+/*
+Theme Name: Paolos Theme
+Theme URI: -
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: This theme is used only for testing purposes.
+Version: 1.0
+Tested up to: 6.7
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: paolos-theme
+Tags: Test, Example, Theme, WordPress
+*/
+
+body {
+    background-color: white;
+    color: #191919;
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+
+.rounded-circle {
+    object-fit: cover;
+    border-radius: 100%!important;
+    width: 150px!important;
+    height: 150px!important;
+    align-self: center;
+
+}
+
+
+aside {
+  position: sticky;
+  top: 80px; /* adjust based on your header height */
+  align-self: start; /* good for flex layouts */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
